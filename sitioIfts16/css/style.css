@@ -1,0 +1,318 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+h1{
+    font-size: 3.5em;
+}
+h2{
+    font-size: 2.6 em;
+}
+h3{
+    font-size: 2.0 em;
+}
+p{
+    font-size: 1.25em;
+}
+ul{
+    list-style: none;
+}
+li{
+font-size: 1.4em; 
+}
+
+button{
+font-size: 0.9em;
+font-weight: bold;
+margin: 20px 0px;
+border-radius: 10px;
+padding: 10px 25px;
+border: 1px solid rgb(0, 0, 0,0.5);
+color: white;
+background-color: blueviolet; 
+}
+
+button:hover{
+background-color: rgb(45, 6, 82);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+
+background-color: rgb(245, 245, 245);
+}
+
+header .logo{
+    padding: 25px 30px;
+    color: blue;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+ 
+header a{
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(32, 36, 236);
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ), url("../images/herobg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+}
+
+#sistemas .container{
+    text-align: center;
+    padding: 120px 20px;
+
+}
+#sistemas .container p{
+    margin-top: 20px;
+
+}
+
+#carrerasifts {
+    background-color: rgba(30,30,30);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+
+}
+
+#carrerasifts .container {
+    padding: 30px 10px;
+}
+
+#carrerasifts .container h2{
+    margin-top: 0px;
+    color: white;
+}
+
+#carrerasifts .container p{
+    display: none;
+}
+
+#carrerasifts .container .tecnicaturas{
+    color: rgb(255, 255, 255);
+    padding:30px 20px;
+}
+
+#carrerasifts .container .carreras .tecnicaturas{
+    background-position: center center;
+    background-size: cover;
+    padding: 60px;
+    margin: 12px;
+    border-radius: 10px;
+    height: 30vh;
+
+}
+
+.tecnicaturas:first-child{
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ), url("../images/analisis.webp");
+
+
+}
+
+.tecnicaturas:nth-child(2){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ), url("../images/desarrollo.jpeg");
+
+
+}
+
+
+.tecnicaturas:last-child{
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ), url("../images/robotica.jpg");
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+    
+}
+
+#caracteristicas li{
+
+margin: 30px;
+font-weight: bold;
+
+}
+
+#aplicar{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 80vh;
+
+
+}
+
+#aplicar h2{
+    font-size: 3.0em;
+}
+
+
+#aplicar button{
+    font-size: 2.5em;
+}
+
+footer{
+    background-color: azure;
+}
+
+footer p{
+    color: gray;
+    padding: 12px;
+
+}
+
+footer .container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+
+@media(min-width:720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        justify-content: space-between;
+    
+    }
+    
+    header nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    #hero h1{
+        font-size: 4.5em;
+
+    }
+
+    #sistemas .container{
+
+        display: flex;
+        justify-content: center;
+    }
+    #sistemas .container .img-container{
+        background-image: url("../images/softeng.jpg");
+        background-size: cover;
+        background-position: center center;
+        width: 500px;
+        height: 500px;
+
+
+    }
+
+    #sistemas .container .texto-container{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        max-width: 500px;
+        text-align: initial;
+        padding: 0px 30px;
+    }
+
+
+    #carrerasifts .container .carreras {
+        display: flex;
+        justify-content: center;
+
+
+
+    }
+
+    #carrerasifts .container .carreras p {
+        display: block;
+        font-size: 0.70em;
+
+
+    }
+
+    #carrerasifts .container .carreras .tecnicaturas {
+        padding: 60px 20px 10px 20px;
+        height: auto;
+
+
+    }
+
+
+
+
+}
