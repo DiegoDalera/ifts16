@@ -1,0 +1,1091 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>IFTS 16 - Inscripción a materias</title>
+    <link rel="stylesheet" href="static/types/Akkurat-Mono/styles.css">
+<link rel="stylesheet" href="static/types/webfontkit-20160720-220406/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/clasesvarias.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='css-1?family=Lemon|Coda:800' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link href='css-2?family=Pacifico' rel='stylesheet' type='text/css'>
+<style>
+     html,body{
+        margin:0;
+        padding:0;
+        font-family: 'Akkurat';
+        text-align: center;
+        background:white !important;
+    }
+    #form_container{
+        width: 95%;
+        max-width: 1000px;
+        border:0;
+    }
+    h2{
+                    color: #00213e;
+    font-size: 2.4em;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 9px;
+    
+
+    font-family: "BikoBlack";
+    font-weight: normal;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    }
+    h2 span, p,form, label{
+          font-family: 'Akkurat';
+            font-size:20px;
+    }
+    header{
+        height: 200px;
+        background-image:url(bg.jpg);
+        background-position: center center;
+        background-size:cover;
+    }
+    .opa{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background:rgba(0,0,0,0.9);
+    }
+    header{
+        position: relative;
+    }
+    header img, header a{
+        z-index: 2;
+        position: relative;
+    }
+    header img{
+            display: block;
+    margin: auto;
+    padding-top: 50px;
+    width: 160px;
+    margin-bottom: 30px;
+
+
+    }
+    header a{
+        color: white;
+        font-family: 'Akkurat';
+        font-size: 12px;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-bottom: 5px;
+    }
+    body.contacto a.boton-contacto,
+    body.inscripcion a.boton-inscripcion{
+        border-bottom: 1px solid #15ede2;
+    }
+    header a.first{
+        margin-right: 20px;
+    }
+    textarea,input{
+        border:2px solid #00213e !important;
+        font-family: 'Akkurat';
+        font-size: 20px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    textarea,input.medium{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #saveForm{
+        width: 100%;
+        border:2px solid #15ede2 !important;
+        color:#00213e;
+        margin-top: 10px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        background:transparent;
+        font-size: 13px;
+        letter-spacing: 2px;
+        margin-bottom: 200px;
+    }
+    .table{
+        text-align: left;
+        font-size:16px;
+    }
+    h2 span, p, form, label{
+        font-size: 16px;
+    }
+    #navnav{
+        margin-top: 50px;
+    }
+    .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+</style>
+</head>
+
+<body>
+
+  <header>
+
+    <a style='position: absolute;right:10px;top:10px;z-index:2' href="index.htm">
+        Volver al sitio <svg style='position:relative;top:5px;' height="20" width="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewbox="0 0 31.112 31.112" style="enable-background:new 0 0 31.112 31.112;" xml:space="preserve" width="512px" height="512px">
+<polygon points="31.112,1.414 29.698,0 15.556,14.142 1.414,0 0,1.414 14.142,15.556 0,29.698 1.414,31.112 15.556,16.97   29.698,31.112 31.112,29.698 16.97,15.556 " fill="#FFFFFF"></polygon>
+
+</svg>
+    </a>
+    <div class="opa"></div>
+    <img src="static/svg/logo-blanco.svg" alt="">
+    
+</header>   
+    <h2><span>{</span>Inscripción a finales<span>}</span></h2>
+    <div class="container">
+
+       
+        <!-- /.row -->
+
+<div id='modal-component' class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content"> <div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>  </div> <div class="modal-body"> ... </div> </div>
+  </div>
+</div>
+
+
+
+        <form class="form">
+            <nav class="navbar navbar-default navbar-static-top">
+                <div class="container">
+<style>
+    #notas p{
+        font-size: 13px;
+    }
+</style>
+                        <div id='notas' style='margin-bottom:40px;font-size:14px;max-width:640px;margin-left:auto;margin-right: auto;'>
+                            <h2 style='font-size:14px;padding-top:0'>NOTAS ACLARATORIAS                                      </h2>
+                                        
+<p>LOS ALUMNOS PUEDEN INSCRIBIRSE A LAS MATERIAS YA SEA TELEFONICAMENTE, PERSONALMENTE O POR INTERNET                                      </p>
+                                        
+<p>LAS MATERIAS QUE FIGURAN EN CURSIVA CORRESPONDEN AL PRIMER CUATRIMESTRE (PARA DEUDORES)                                     </p>
+                                        
+<p>LAS MATERIAS QUE TIENEN UN UNICO LLAMADO (DEBIDO A LOS FERIADOS), EN CASO DE SER NECESARIA OTRA INSTANCIA QUE SEA APROBADA POR EL PROFESOR, SE COORDINA PERSONALMENTE CON EL MISMO.                                     </p>
+                                        
+<p>AQUELLOS ALUMNOS QUE ADEUDAN MATERIAS QUE FUERON DICTADAS POR OTRO PROFESOR DISTINTO AL QUE FIGURA EN ESTE CALENDARIO, DEBEN COMUNICARSE TELEFONICAMENTE O POR CORREO CON EL INSTITUTO PARA REGISTRAR LA INSCRPCION AL EXAMEN PRETENDIDO.                                       </p>
+<p>DICHOS ALUMNOS DEBERAN VENIR EL MISMO DIA QUE EL PROFESOR SOLICITADO. SIN PREVIO AVISO, NO SERÁ PERMITIDO RENDIR EL EXAMEN FINAL.                                       </p>
+                        <hr>
+                        </div>
+
+
+
+                    <h6>Por favor completá los siguientes datos.</h6>
+                    <div class="form-group">
+                        <label class="sr-only" for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="dni">DNI</label>
+                        <input type="text" class="form-control" id="dni" placeholder="DNI">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="sr-only" for="dni">E-mail</label>
+                        <input type="text" class="form-control" id="email" placeholder="E-mail">
+                    </div>
+
+
+
+
+
+
+                    <ul id='navnav' class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#primer" aria-controls="primer" role="tab" data-toggle="tab">Primer Nivel</a></li>
+                        <li role="presentation"><a href="#segundo" aria-controls="segundo" role="tab" data-toggle="tab">Segundo Nivel</a></li>
+                        <li role="presentation"><a href="#tercer" aria-controls="tercer" role="tab" data-toggle="tab">Tercer Nivel</a></li></ul>
+
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="primer">
+                            <div class="table-responsive">
+                               <table class="table">
+
+
+                                    <tr class="active">
+
+                                        <td><h4>Asignatura</h4></td>
+                                        <td><h4>Fecha </h4></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td> <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" name='LogicaComputacional'> Lógica Computacional A y B(Rende)
+                                                </label>
+                                            </div>
+
+                                        </td><td>   <div class='form-group'>
+
+                                                <!--<input type="radio" name='LogicaComputacionalLlamado' value='1'/> 30/07-->
+                                                <input type="radio" name='LogicaComputacionalLlamado' value='2'> 30/07
+                                            </div></td>
+                                    </tr>
+
+                                     
+                                     <tr>
+                                        <td> <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" name='LogicaComputacional'> Diagramación Lógica A (Neubaum)
+                                                </label>
+                                            </div>
+
+                                        </td><td>   <div class='form-group'>
+
+                                                <input type="radio" name='LogicaComputacionalLlamadoA' value='1'>10/07
+
+
+
+
+                                                <input type="radio" name='LogicaComputacionalLlamadoA' value='2'> 31/07
+
+
+                                            </div></td>
+                                    </tr>
+
+
+                                    
+                                    <!--tr-->
+                                    
+
+                                    <tr class="">
+                                        <td class=""> <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" name='DiagramacionLogica'> Diagramación Logica B (Neubaum)
+                                                </label>
+                                            </div></td><td>   <div class='form-group'>
+
+                                                <input type="radio" name='DiagramacionLogicaLlamadoB' value='1'> 13/07
+                                                <input type="radio" name='DiagramacionLogicaLlamadoB' value='2'> 03/08
+                                            </div></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td> <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" name='IntroduccionaEstudiosdelasTICS'>   Introducción a las Tics A y B(Catoira)
+                                                </label>
+
+                                                <td>   <div class='form-group'>
+
+                                                        <input type="radio" name='IntroduccionaEstudiosdelasTICSLlamado' value='1'> 11/07
+                                                        
+                                                        <input type="radio" name='IntroduccionaEstudiosdelasTICSLlamado' value='2'> 01/08
+                                                    </div></td>
+                                    </div></td></tr>
+                                    <tr class="">
+                                        <td> <div class="checkbox">
+                                                <label>
+                                                    <input name='Arquitecturadelascomputadoras' type="checkbox">Arquitectura de las computadoras A (Aurteneche)
+                                                </label>  
+                                                <td>   <div class='form-group'>
+
+                                                        <input type="radio" name='ArquitecturadelascomputadorasLlamado' value='1'>12/07
+                                                        <input type="radio" name='ArquitecturadelascomputadorasLlamado' value='2'> 02/08
+                                                    </div></td>
+                                    </div></td></tr>
+
+                                    <tr class="">
+                                        <td> <div class="checkbox">
+                                                <label>
+                                                    <input name='Arquitecturadelascomputadoras' type="checkbox">Arquitectura de las computadoras B (Aurteneche)
+                                                </label>  
+                                                <td>   <div class='form-group'>
+
+                                                        <input type="radio" name='ArquitecturadelascomputadorasLlamado' value='1'>10/07
+                                                        <input type="radio" name='ArquitecturadelascomputadorasLlamado' value='2'> 31/07
+                                                    </div></td>
+                                    </div></td></tr>
+
+                                    <tr>
+                                        <td> <div class="checkbox">
+                                                <label>   
+                                                    <input type="checkbox" name='ContabilidadBasicaydeCostos'>Contabilidad Basica y de Costos A y B(Piedrabuena)
+                                                </label>  
+                                                <td>   <div class='form-group'>
+
+                                                        <input type="radio" name='ContabilidadBasicaydeCostosLlamado' value='1'> 11/07
+                                                        <input type="radio" name='ContabilidadBasicaydeCostosLlamado' value='2'> 01/08
+
+
+                                                    </div></td>
+                                    </div></td></tr>
+
+
+                                    <!--tr  class="">
+                                        <td> <div class="checkbox">
+                                                <label>   
+                                                    <input type="checkbox" name='EstructuradeDatos'>Estructura de Datos A y B (Aurteneche)
+                                                </label>  
+                                                <td>   <div class ='form-group'>
+
+                                                        <input type="radio" name='EstructuradeDatosLlamado' value='1'/> 8/03
+
+                                                        <input type="radio" name='EstructuradeDatosLlamado' value='1'/> 15/03
+                                                        
+                                                    </div></td>
+
+                                    </tr-->
+
+
+                                    <!--tr>
+                                        <td> <div class="checkbox">
+                                                <label>   
+                                                    <input type="checkbox" name='ParadigmasdeProgramacion'>Paradigmas de Programacion A (Neubaum)
+                                                </label>  
+
+                                                <td>   <div class ='form-group'>
+
+                                                        <input type="radio" name='ParadigmasdeProgramacionLlamadoA' value='1'/> 30/11
+                                                        <input type="radio" name='ParadigmasdeProgramacionLlamadoA' value='2'/> 07/12
+                                                    </div></td>
+                                    </tr>
+                                    <tr>
+                                        <td> <div class="checkbox">
+                                                <label>   
+                                                    <input type="checkbox" name='ParadigmasdeProgramacion'>Paradigmas de Programacion B (Neubaum)
+                                                </label>  
+
+                                                <td>   <div class ='form-group'>
+
+                                                        <input type="radio" name='ParadigmasdeProgramacionLlamadoB' value='1'/> 30/11
+                                                        <input type="radio" name='ParadigmasdeProgramacionLlamadoB' value='2'/> 07/12
+                                                    </div></td>
+                                    </tr-->
+
+                                    <!--tr  class="">
+                                        <td> <div class="checkbox">
+                                                <label>   
+                                                    <input type="checkbox" name='TallerdepracticasI'>Taller de Práctica Profesional I A (Bacchetta)
+                                                </label>  
+
+                                                <td>   <div class ='form-group'>
+
+                                                        <input type="radio" name='TallerdepracticasILlamadoA' value='1'/> 29/11
+                                                        <input type="radio" name='TallerdepracticasILlamadoA' value='2'/> 06/12  
+                                                    </div></td>
+                                    </tr>
+                                    <tr  class="">
+                                        <td> <div class="checkbox">
+                                                <label>   
+                                                    <input type="checkbox" name='TallerdepracticasI'>Taller de Práctica Profesional I B (Rende)
+                                                </label>  
+
+                                                <td>   <div class ='form-group'>
+
+                                                        <input type="radio" name='TallerdepracticasILlamadoB' value='1'/> 29/11
+                                                        <input type="radio" name='TallerdepracticasILlamadoB' value='2'/> 06/12  
+                                                    </div></td>
+                                    </tr-->
+
+                                    <!--tr>
+                                        <td> <div class="checkbox">
+                                                <label>   
+                                                    <input type="checkbox" name='EstructuradelaOrganizacion'>Estructura de la Organizacion A (Piedrabuena)
+                                                </label>   
+
+                                                <td>   <div class ='form-group'>
+
+                                                        <input type="radio" name='EstructuradelaOrganizacionLlamado' value='1'/> 27/11
+                                                        <input type="radio" name='EstructuradelaOrganizacionLlamado' value='1'/> 04/12
+                                                        
+                                                    </div></td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> <div class="checkbox">
+                                                <label>   
+                                                    <input type="checkbox" name='EstructuradelaOrganizacion'>Estructura de la Organizacion B (Piedrabuena)
+                                                </label>   
+
+                                                <td>   <div class ='form-group'>
+
+                                                        <input type="radio" name='EstructuradelaOrganizacionLlamado' value='1'/> 27/11
+                                                        <input type="radio" name='EstructuradelaOrganizacionLlamado' value='1'/> 04/12
+                                                        
+                                                    </div></td></td>
+                                    </tr-->
+
+                                    <!--tr  class="">
+                                        <td> <div class="checkbox">
+                                                <label>   
+                                                    <input type="checkbox" name='AlgebraLineal'>Algebra Lineal A (Procopio)
+                                                </label>   
+
+                                                <td>   <div class ='form-group'>
+
+                                                        <input type="radio" name='AlgebraLinealLlamadoA' value='1'/> 28/11
+                                                        <input type="radio" name='AlgebraLinealLlamadoA' value='2'/> 05/12
+                                                    </div></td>
+                                    </tr>
+                                    <tr  class="">
+                                        <td> <div class="checkbox">
+                                                <label>   
+                                                    <input type="checkbox" name='AlgebraLineal'>Algebra Lineal B (Procopio)
+                                                </label>   
+
+                                                <td>   <div class ='form-group'>
+
+                                                        <input type="radio" name='AlgebraLinealLlamadoB' value='1'/> 28/11
+                                                        <input type="radio" name='AlgebraLinealLlamadoB' value='2'/> 05/12
+                                                    </div></td>
+                                    </tr-->
+                                    <tr>
+                                        <td> <div class="checkbox">
+                                                <label>   
+                                                    <input type="checkbox" name='InglesTecnico'>Ingles Técnico A y B(Yanil Navarro)
+                                                </label>   
+
+                                                <td>   <div class='form-group'>
+
+                                                        
+                                                        <input type="radio" name='InglesTecnicoLlamadoA' value='2'> 30/07
+                                                    </div></td>
+                                    </div></td></tr>
+                                    
+                                    
+
+                                </table>
+                           
+                                
+
+
+                            </div>
+                        </div>
+
+                        <div role="tabpanel" class="tab-pane " id="segundo">
+                
+                                    <div class="table-responsive">
+                                        <table class="table">
+
+
+                                            <tr class="active">
+
+                                                <td><h4>Asignatura</h4></td>
+                                                <td><h4>Fecha </h4></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td> <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox"> Sistemas Operativos y Comunicaciones (Rende)
+                                                        </label>
+                                                    </div>
+
+                                                </td><td>   <div class='form-group'>
+
+                                                        <input type="radio" name='p1' value='preferencia1'> 13/07
+                                                        <input type="radio" name='p1' value='preferencia1'> 03/08
+                                                        
+                                                    </div></td>
+                                            </tr>
+                                            <tr>
+                                            
+                                            </tr><tr class="">
+                                                <td class=""> <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox"> Análisis de Sistemas (Trigila)
+                                                        </label>
+                                                    </div></td><td>   <div class='form-group'>
+
+                                                        <input type="radio" name='p2' value='preferencia1'> 11/07
+
+
+                                                        <input type="radio" name='p2' value='preferencia2'> 01/08
+
+
+                                                    </div></td>
+                                            </tr>
+
+                                             <tr>
+                                                <td> <div class="checkbox">
+                                                        <label>   
+                                                            <input type="checkbox"> Base de Datos (Ferro Croce)
+                                                        </label>  
+
+                                                        <td>   <div class='form-group'>
+
+                                                                <input type="radio" name='p7' value='preferencia1'> 12/07
+
+
+                                                                <input type="radio" name='p7' value='preferencia2'> 02/08
+
+
+                                                            </div></td>
+                                            </div></td></tr>
+                                            
+                                            <!--tr>
+                                                <td> <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox"> Programación Aplicada (Allegue)
+                                                        </label>
+
+                                                        <td>   <div class ='form-group'>
+
+                                                                <input type="radio" name='programacionaplicada' value='preferencia1'/> 28/11
+                                                                <input type="radio" name='programacionaplicada' value='preferencia2'/> 05/12
+                                                            </div></td>
+                                            </tr-->
+                                            <!--tr  class="">
+                                                <td> <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox"> Gestión de Proyectos Informáticos (Catoira)
+                                                        </label>  
+                                                        <td>   <div class ='form-group'>
+
+                                                                <input type="radio" name='p4' value='preferencia1'/> 27/11
+                                                                <input type="radio" name='p4' value='preferencia1'/> 04/12
+
+                                                            </div></td>
+                                            </tr-->
+                                            
+                                            
+                                            <tr>
+                                                <td> <div class="checkbox">
+                                                        <label>   
+                                                            <input type="checkbox">Ingeniería de Software (Rodrigo Marquez)
+                                                        </label>  
+                                                        <td>   <div class='form-group'>
+
+                                                                <input type="radio" name='p5' value='preferencia1'> 10/07
+
+
+                                                                <input type="radio" name='p5' value='preferencia2'> 31/07
+
+
+                                                            </div></td>
+                                            </div></td></tr>
+                                            
+                                             
+                                            <!--tr  class="">
+                                                <td> <div class="checkbox">
+                                                        <label>   
+                                                            <input type="checkbox"> Cálculo Numérico (Catoira)
+                                                        </label>  
+                                                        <td>   <div class ='form-group'>
+
+                                                                <input type="radio" name='p6' value='preferencia1'/> 27/11
+                                                                <input type="radio" name='p6' value='preferencia1'/> 04/12
+                                                                
+                                                            </div></td>
+
+                                            </tr-->
+                                           
+                                            <!tr  class="">
+                                                <td> <div class="checkbox">
+                                                        <label>   
+                                                            <input type="checkbox">Análisis de Sistemas (Trigila)
+                                                        </label>  
+
+                                                        <td>   <div class='form-group'>
+
+                                                                <input type="radio" name='p8' value='preferencia1'> 11/07
+                                                                <input type="radio" name='p8' value='preferencia2'> 01/08
+                                                            </div></td>
+                                            
+                                            <tr>
+                                                <td> <div class="checkbox">
+                                                        <label>   
+                                                            <input type="checkbox">Planeamiento y Control de Gestión (Piedrabuena)
+                                                        </label>   
+
+                                                        <td>   <div class='form-group'>
+
+                                                                <input type="radio" name='p9' value='preferencia1'> 12/07
+                                                                <input type="radio" name='p9' value='preferencia1'> 02/08
+
+
+
+                                                            </div></td></div></td>
+                                            </tr>
+                                            
+                                        <tr>
+                                            <td> <div class="checkbox">
+                                                    <label>   
+                                                        <input type="checkbox">Taller de Diagnóstico y Diseño (Bacchetta)
+                                                    </label>   
+
+                                                    <td>   <div class='form-group'>
+
+                                                            <input type="radio" name='p11' value='preferencia1'> 30/07
+                                                            <input type="radio" name='p11' value='preferencia2'> 06/08
+                                                        </div></td>
+                                        </div></td></tr>
+
+                                        
+
+                                         <!--tr>
+                                            <td> <div class="checkbox">
+                                                    <label>   
+                                                        <input type="checkbox">Seminario de prof en sist aplicados (Bacchetta)
+                                                    </label>   
+
+                                                    <td>   <div class ='form-group'>
+
+                                                            <input type="radio" name='p11' value='preferencia1'/> 28/11
+                                                            <input type="radio" name='p11' value='preferencia2'/> 05/12
+                                                        </div></td>
+                                        </tr-->
+                                        </div></td></table>
+
+                                       
+
+
+
+                                     
+                                 
+                           
+
+
+                           </div></div>
+
+                           
+
+                           <div role="tabpanel" class="tab-pane " id="tercer">
+               
+                                    <div class="table-responsive">
+                                        <table class="table">
+
+
+
+                                        <tr class="active">
+
+                                            <td><h4>Asignatura</h4></td>
+                                            <td><h4>Fecha </h4></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td> <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox"> Estadística Aplicada (Procopio)
+                                                    </label>
+                                                </div>
+
+                                            </td><td>   <div class='form-group'>
+
+                                                    <input type="radio" name='p12' value='preferencia1'> 10/07
+                                                    <input type="radio" name='p12' value='preferencia1'> 31/07
+
+
+                                                </div></td>
+                                        </tr>
+                                        <!--tr>
+                                        <tr  class="">
+                                            <td class=""> <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox"> Herramientas de Gestión Organizacional (Catoira)
+                                                    </label> 
+                                                </div><td>   <div class ='form-group'>
+
+                                                    <input type="radio" name='p13' value='preferencia1'/> 27/11
+                                                    <input type="radio" name='p13' value='preferencia1'/> 04/12
+
+
+                                                    
+                                                </div></td>
+                                        </tr-->
+                                        <tr>
+                                            <td> <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox"> Laboratorio de Redes y Comunicaciones
+                                                    </label>
+
+                                                    <td>   <div class='form-group'>
+
+                                                            <input type="radio" name='p14' value='preferencia1'>11/07
+                                                            <input type="radio" name='p14' value='preferencia2'>01/08
+                                                        </div></td>
+                                        </div></td></tr>
+                                        <tr class="">
+                                            <td> <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox"> Desarrollo de Aplicaciones Web (Bacchetta)
+                                                    </label>  
+                                                    <td>   <div class='form-group'>
+
+                                                            <input type="radio" name='p15' value='preferencia1'> 13/07
+                                                            <input type="radio" name='p15' value='preferencia1'> 03/08
+
+
+                                                            
+
+
+                                                        </div></td>
+                                        </div></td></tr>
+                                         
+                                         
+                                        <!--tr>
+                                            <td> <div class="checkbox">
+                                                    <label>   
+                                                        <input type="checkbox" name='Seminario-II-Profundizacion-y-oActualizacion'>Seminario II (Profundización y/o Actualización) (Ferro Croce)
+                                                    </label>  
+
+                                                    <td>   <div class ='form-group'>
+
+                                                            <input type="radio" name='Seminario-II-Profundizacion-y-oActualizacionLlamado' value='1'/> 30/11
+                                                            <input type="radio" name='Seminario-II-Profundizacion-y-oActualizacionLlamado' value='2'/> 07/12                                                        </div></td>
+                                        </tr-->
+                                        <!--tr>
+                                            <td> <div class="checkbox">
+                                                    <label>   
+                                                        <input type="checkbox">Seguridad Informática (Rende)
+                                                    </label>  
+                                                    <td>   <div class ='form-group'>
+
+                                                            <input type="radio" name='p16' value='preferencia1'/> 29/11
+                                                            <input type="radio" name='p16' value='preferencia2'/> 06/12
+                                                        </div></td>
+                                        </tr-->
+                                        
+                                        <!--tr>
+                                            <td> <div class="checkbox">
+                                                    <label>   
+                                                        <input type="checkbox" name='Seminario-II-Profundizacion-y-oActualizacion'>Seminario II (Profundización y/o Actualización)
+                                                    </label>  
+
+                                                    <td>   <div class ='form-group'>
+
+                                                            <input type="radio" name='Seminario-II-Profundizacion-y-oActualizacionLlamado' value='1'/> Primer Llamado
+                                                            <input type="radio" name='Seminario-II-Profundizacion-y-oActualizacionLlamado' value='2'/> Segundo Llamado    
+                                                        </div></td>
+                                        </tr-->
+
+                                        <!--tr  class="">
+                                            <td> <div class="checkbox">
+                                                    <label>   
+                                                        <input type="checkbox" name='LegislacionAplicablealaTecnologiaylasComunicaciones'> Legislación Aplicable a la Tecnología y las Comunicaciones (Piedrabuena)
+                                                    </label>  
+                                                    <td>   <div class ='form-group'>
+
+                                                            <input type="radio" name='LegislacionAplicablealaTecnologiaylasComunicacionesLlamado' value='1'/> 27/11
+                                                            <input type="radio" name='LegislacionAplicablealaTecnologiaylasComunicacionesLlamado' value='1'/> 04/12
+                                                        </div></td>
+
+                                        </tr-->
+                                        
+                                        <tr class="">
+                                            <td> <div class="checkbox">
+                                                    <label>   
+                                                        <input type="checkbox" name='TallerdePrácticadeDesarrolloeImplementacion'>Taller de Práctica de Desarrollo e Implementación (Usich/Aurteneche)
+
+)
+                                                    </label>  
+
+                                                    <td>   <div class='form-group'>
+
+                                                            <input type="radio" name='TallerdePrácticadeDesarrolloeImplementacionLlamado' value='1'> 02/08
+                                                            
+
+   
+                                                        </div></td>
+                                        </div></td></tr>
+
+  
+                                    </table>   
+
+                                       
+
+
+
+                                     
+                                 
+                           
+
+
+                           </div></div>
+
+                           
+
+                           <div role="tabpanel" class="tab-pane " id="tercer">
+               
+                                    <div class="table-responsive">
+                                        <table class="table">
+
+
+
+                                        <tr class="active">
+
+                                            <td><h4>Asignatura</h4></td>
+                                            <td><h4>Fecha </h4></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td> <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox"> Estadística Aplicada (Procopio)
+                                                    </label>
+                                                </div>
+
+                                            </td><td>   <div class='form-group'>
+
+                                                    <input type="radio" name='p12' value='preferencia1'> 10/07
+
+
+                                                    <input type="radio" name='p12' value='preferencia2'> 31/07
+
+
+                                                </div></td>
+                                        </tr>
+                                        <!--tr-->
+                                        <tr class="">
+                                            <td class=""> <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox"> Herramientas de Gestión Organizacional (Catoira)
+                                                    </label> 
+                                                </div></td><td>   <div class='form-group'>
+
+                                                    <input type="radio" name='p13' value='preferencia1'> 12/07
+
+
+                                                    <input type="radio" name='p13' value='preferencia2'>30/07
+                                                </div></td>
+                                        </tr>
+                                        <tr>
+                                            <td> <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox"> Laboratorio de Redes y Comunicaciones
+                                                    </label>
+
+                                                    <td>   <div class='form-group'>
+
+                                                            <input type="radio" name='p14' value='preferencia1'> 11/07
+                                                            <input type="radio" name='p14' value='preferencia2'> 01/08
+                                                        </div></td>
+                                        </div></td></tr>
+                                        
+                                        <!--tr>
+                                            <td> <div class="checkbox">
+                                                    <label>   
+                                                        <input type="checkbox">Seguridad Informática
+                                                    </label>  
+                                                    <td>   <div class ='form-group'>
+
+                                                            <input type="radio" name='p16' value='preferencia1'/> Primer Llamado
+                                                            <input type="radio" name='p16' value='preferencia2'/> Segundo Llamado    
+                                                        </div></td>
+                                        </tr-->
+                                        
+                                        <!--tr>
+                                            <td> <div class="checkbox">
+                                                    <label>   
+                                                        <input type="checkbox" name='Seminario-II-Profundizacion-y-oActualizacion'>Seminario II (Profundización y/o Actualización) (Ferro Croce)
+                                                    </label>  
+
+                                                    <td>   <div class ='form-group'>
+
+                                                            <input type="radio" name='Seminario-II-Profundizacion-y-oActualizacionLlamado' value='1'/> 5/12
+                                                            <input type="radio" name='Seminario-II-Profundizacion-y-oActualizacionLlamado' value='2'/> 12/12
+                                                        </div></td>
+                                        </tr-->
+
+                                        <!--tr  class="">
+                                            <td> <div class="checkbox">
+                                                    <label>   
+                                                        <input type="checkbox" name='TallerdePrácticadeDesarrolloeImplementacion'>Práctica Profesional III (Usich/Aurteneche)
+
+)
+                                                    </label>  
+
+                                                    <td>   <div class ='form-group'>
+
+                                                            <input type="radio" name='TallerdePrácticadeDesarrolloeImplementacionLlamado' value='1'/> 30/11
+
+                                                            <input type="radio" name='TallerdePrácticadeDesarrolloeImplementacionLlamado' value='1'/> 07/12
+
+
+
+   
+                                                        </div></td>
+                                        </tr-->
+
+  
+                                    </table>      
+
+                           </div></div>
+       
+
+                                    </div></div></nav></form>
+
+                                    <button type="button" id='enviar-boton' class="btn btn-primary">Enviar</button></div>
+
+
+
+
+                                    <script src="js/jquery.js" type="text/javascript"></script>
+                                    
+                                    <script>
+
+                                        $('#navnav a').click(function (e) {
+                                            e.preventDefault()
+                                            $(this).tab('show') 
+                                        });
+
+                                        $("#enviar-boton").click(function(){
+                                            var ok = true;
+                                            $("input").removeClass("error");
+                                            if ($("input#nombre").val().length<3){
+                                                
+                                                $('#modal-component .modal-body').html('Ingresá un nombre');
+                                                $('#modal-component').modal('show');
+
+                                                $("input#nombre").addClass("error").focus();
+                                                ok = false;
+                                            }else{
+                                                if ($("input#dni").val().length<7){
+                                                    $('#modal-component .modal-body').html('Ingresá un DNI correcto');
+                                                    $('#modal-component').modal('show');
+                                                    $("input#dni").addClass("error").focus();
+                                                    ok = false;
+                                                }else{
+
+                                                    if (validateEmail($("#email").val())==false){
+                                                        $("input#email").addClass("error").focus();
+                                                        $('#modal-component .modal-body').html('Ingresá un e-mail correcto');
+                                                        $('#modal-component').modal('show');
+                                                        $("input#email").addClass("error").focus();
+                                                        ok = false;
+                                                    }else{
+                                                    if ($("form input[type='checkbox']:checked").length==0){
+                                                        $('#modal-component .modal-body').html('No hay materias seleccionadas');
+                                                        $('#modal-component').modal('show');
+                                                    }else{
+                                                        var materiasMarkup = "<h4 class='modal-title' id='myLargeModalLabel'>Confirmación de inscripción</h4><hr/><div>Nombre: " + $("#nombre").val() + "</div>";
+                                                        materiasMarkup += "<div>DNI: " + $("#dni").val() + "</div>";
+
+                                                        materiasMarkup += "<div>E-mail: " + $("#email").val() + "</div>";
+                                                        
+                                                        materiasMarkup += "<hr/>";
+                                                        materiasMarkup += "<div><b>Materias:</b></div>";
+                                                        
+
+                                                        $("input[type='checkbox']:checked").each(function(){
+                                                            
+                                                            var $row = $(this).parent().parent().parent().parent();
+                                                            var llamado = $row.find("input[type='radio']").index( $row.find("input[type='radio']:checked") ) +1;
+                                                            $row.find("input[type='radio']:checked")
+                                                            materiasMarkup += "<div>" + $(this).parent().text() + " (Llamado "+llamado+")</div>";
+                                                        });
+
+                                                        materiasMarkup += "<br/><br/><button class='btn btn-primary' id='inscribirme'>¡Inscribirme!</button>";
+
+                                                        $('#modal-component .modal-body').html(materiasMarkup);
+                                                        $('#modal-component').modal('show');
+
+                                                        $("#inscribirme").unbind("click").bind("click",function(){
+                                                            $("#inscribirme").hide();
+                                                                $.ajax({
+                                                                    type:"post",
+                                                                    url:"inscripcion_materias_ajax.php",
+                                                                    data:{
+                                                                        email:$("#email").val(),
+                                                                        text:materiasMarkup
+                                                                    },
+                                                                    success:function(data){
+                                                                        $("#inscribirme").show();
+                                                                        if (data=="1"){
+                                                                            $(".modal-body").html("¡Inscripción exitosa!")
+                                                                        }else{
+                                                                            $(".modal-body").html("Ocurrió un error, probá nuevamente.")
+                                                                        }
+                                                                    }
+                                                                });
+                                                        });
+                                                    }
+                                                    }
+                                                }    
+                                            }
+
+                                            return false;
+                                        });
+
+                                        $("form input[type='checkbox']").bind("click", function(){
+                                            if ($(this).prop('checked') == false){
+                                                var $row = $(this).parent().parent().parent().parent();
+                                                $row.find("input[type='radio']").prop('checked', false);
+                                            }else{
+                                                var $row = $(this).parent().parent().parent().parent();
+                                                $row.find("input[type='radio']").first().prop('checked', true);
+                                            }
+                                        });
+
+                                        $("form input[type='radio']").bind("click", function(){
+                                            var $row = $(this).parent().parent().parent();
+                                            $row.find("input[type='checkbox']").prop('checked', true);
+                                        });
+                                        
+                                        function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}
+
+                                    </script>
+                                    <style>
+                                        input[type='text']{
+                                            box-sizing: border-box;
+                                            width: 97% !important;
+                                        }
+                                        input.error{
+                                            border:1px solid red;
+                                            outline:0;
+                                            box-shadow: none;
+                                        }
+                                    </style>
+   
+     
+        <hr>
+
+        <!-- Footer -->
+     <footer>
+            <nav class="navbar navbar-inverse navbar-fixed-botton fondoNav letraNavBotton" role="navigation">
+       <img src="imagenes/logo_gcba_tr.gif" width="200" height="60" class="pull-right" vspace="10" hspace="10">
+<h4><strong>Instituto de Formacion Tecnica Superior 16 </strong></h4> 
+                      <p>Lascano 4044 - Montecastro - CABA -
+                      Teléfono: 4566-2084  -  Email:dfts_ifts16_de21@bue.edu.ar</p>
+        </nav>
+        
+        </footer>
+
+
+    
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

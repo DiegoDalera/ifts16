@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Formulario de Consulta</title>
+<link rel="stylesheet" href="static/types/Akkurat-Mono/styles.css">
+<link rel="stylesheet" href="static/types/webfontkit-20160720-220406/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+<script type="text/javascript" src="view.js"></script>
+<script type="text/javascript" src="calendar.js"></script>
+<!--script src='https://www.google.com/recaptcha/api.js?render=6Le_mnoUAAAAAOJHRzPD5jCEpBu5AwS7dhlXMxxI'></script-->
+<script src="recaptcha/api.js" async="" defer=""></script>
+
+</head>
+<body id="main_body" class='contacto'>
+
+	    <style>
+    html,body{
+        margin:0;
+        padding:0;
+        font-family: 'Akkurat';
+        text-align: center;
+    }
+    #form_container{
+        width: 95%;
+        max-width: 1000px;
+        border:0;
+    }
+    h2{
+                    color: #00213e;
+    font-size: 2.4em;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 9px;
+    
+
+    font-family: "BikoBlack";
+    font-weight: normal;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    }
+    h2 span, p,form, label{
+          font-family: 'Akkurat';
+            font-size:20px;
+    }
+    header{
+        height: 200px;
+        background-image:url(bg.jpg);
+        background-position: center center;
+        background-size:cover;
+    }
+    .opa{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background:rgba(0,0,0,0.9);
+    }
+    header{
+        position: relative;
+    }
+    header img, header a{
+        z-index: 2;
+        position: relative;
+    }
+    header img{
+            display: block;
+    margin: auto;
+    padding-top: 50px;
+    width: 160px;
+    margin-bottom: 30px;
+
+
+    }
+    header a{
+        color: white;
+        font-family: 'Akkurat';
+        font-size: 12px;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-bottom: 5px;
+    }
+    body.contacto a.boton-contacto,
+    body.inscripcion a.boton-inscripcion{
+        border-bottom: 1px solid #15ede2;
+    }
+    header a.first{
+        margin-right: 20px;
+    }
+    textarea,input{
+        border:2px solid #00213e !important;
+        font-family: 'Akkurat';
+        font-size: 20px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    textarea,input.medium{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #saveForm{
+        width: 100%;
+        border:2px solid #15ede2 !important;
+        color:#00213e;
+        margin-top: 10px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        background:transparent;
+        font-size: 13px;
+        letter-spacing: 2px;
+        margin-bottom: 200px;
+    }
+</style>
+<header>
+
+    <a style='position: absolute;right:10px;top:10px;z-index:2' href="index.htm">
+        Volver al sitio <svg style='position:relative;top:5px;' height="20" width="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewbox="0 0 31.112 31.112" style="enable-background:new 0 0 31.112 31.112;" xml:space="preserve" width="512px" height="512px">
+<polygon points="31.112,1.414 29.698,0 15.556,14.142 1.414,0 0,1.414 14.142,15.556 0,29.698 1.414,31.112 15.556,16.97   29.698,31.112 31.112,29.698 16.97,15.556 " fill="#FFFFFF"></polygon>
+
+</svg>
+    </a>
+    <div class="opa"></div>
+    <img src="static/svg/logo-blanco.svg" alt="">
+    <a href="contacto.php.html" class='boton-contacto'>Contacto</a>
+</header>	
+	<h2><span>{</span>Formulario de Contacto<span>}</span></h2>
+	
+	<div id="form_container">
+	
+		
+		<form id="form_508683" class="appnitro" method="post" action="form-to-email.php">
+					<div class="form_description">
+			
+			<p>Recuerde en llenar  la mayor cantidad de datos posibles</p>
+		</div>						
+			<ul>
+			
+					<li id="li_1">
+		<label class="description" for="element_1">Nombre y Apellido </label>
+		<div>
+			<input id="element_1" name="element_1" class="element text medium" type="text" maxlength="255" value=""> 
+		</div><p class="guidelines" id="guide_1"><small>ingrese su nombre y apellido</small></p> 
+		</li>		
+
+ 		<li id="li_6">
+		<label class="description" for="element_6">Correo Electronico </label>
+		<div>
+			<input id="element_6" name="element_6" class="element text medium" type="text" maxlength="255" value=""> 
+		</div><p class="guidelines" id="guide_6"><small>ingrese un mail valido</small></p> 
+		</li>	
+
+		<li id="li_6">
+		<label class="description" for="element_7">Consulta </label>
+		<div>
+			<textarea id='consulta' name='consulta'></textarea> 
+		</div>
+		</li>	
+
+
+			
+					<li class="buttons">
+						<!--div class="g-recaptcha" data-sitekey="6LeBEjYUAAAAAFhg35i_BMiJFvgMl88YDu_pvWT_"></div>
+			    <input type="hidden" name="form_id" value="508683" />
+			    
+				<button
+				class="g-recaptcha"
+				data-sitekey="6LeXFTYUAAAAAP5h8JyBWdBfXT8bl7PxqyPlQivB"
+				data-callback="submitForm">
+				Enviar
+				</button-->
+				<div class="g-recaptcha" data-sitekey="6LdYy84iAAAAAGfAFe_XYqvj8nmmx3nZiMSJhDy-"></div>
+				<input type="submit" name="submit" value="Enviar">
+		</li>
+			</ul>
+		</form>	
+		
+	</div>
+
+	<script src="jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  
+<!--script>
+	grecaptcha.ready(function() {
+		grecaptcha.execute('6Le_mnoUAAAAAOJHRzPD5jCEpBu5AwS7dhlXMxxI', {action: 'action_name'})
+		.then(function(token) {
+			$('form').prepend('<input type="hidden" name="token" value="' + token + '">');
+		});
+	});
+</script-->
+ 
+
+
+	
+	</body>
+</html>

@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fondoNav {
+	background-color:#30F;
+	}
+	
+.letraNav{
+	font-size:16px;
+	color:#FFF;
+	}
+	
+.letraNavBotton{
+	font-size:12px;
+	color:#FFF;
+	padding-left:20px;
+	
+	}	
+.justificada {
+		text-align:justify;
+		}
+.h1-header {
+	color:#000;
+	font-size:24px;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+}
+		
+.panel-verde {
+  border-color:#393;
+}
+.panel-verde > .panel-heading {
+  color:#FFF;
+  background-color:#393;
+  border-color:#393;
+  
+}
+.panel-verde > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #393;
+}
+.panel-verde > .panel-heading .badge {
+  color:#000;
+  background-color: #393;
+}
+.panel-verde > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #393;
+}
+
+.btn-verde {
+	background-color:#393;
+	color:#FFF;
+}
+
+.panel-rojo {
+  border-color:#F39;
+}
+.panel-rojo > .panel-heading {
+  color: #FFF;
+  background-color: #F39;
+  border-color: #F39;
+}
+.panel-rojo > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #F39;
+}
+.panel-rojo > .panel-heading .badge {
+  color: #000;
+  background-color: #F39;
+}
+.panel-rojo > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #F39;
+}
+
+.btn-rojo {
+	background-color:#F39;
+	color:#FFF;
+}
+
+
+.panel-azul {
+  border-color:#33F;
+}
+.panel-azul > .panel-heading {
+  color: #FFF;
+  background-color: #33F;
+  border-color: #33F;
+}
+.panel-azul > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #33F;
+}
+.panel-azul > .panel-heading .badge {
+  color: #000;
+  background-color: #33F;
+}
+.panel-azul > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #33F;
+}
+.btn-azul {
+	background-color:#33F;
+	color:#FFF;
+}
+.btn-blanco {
+	background-color:#FFF;
+	color:#000;
+	border:#333;
+	margin-left:25px;
+	margin-right:150px;
+	margin-bottom:10px;
+}
+
+.logoGob {
+	margin-left:50px;
+	margin-right:120px;
+	margin-top:10px;
+}
+
+
+
+.page-header-contacto {
+	color: #33F;
+font-size:24px;
+font-weight:bold;
+}
+.ifts16 {
+	font-family: Lemon;
+	/*font-family: 'Pacifico', cursive;*/
+	font-weight:300;
+	font-size:30px;
+	margin-right:50px;
+	float: left;
+	margin-top: 5px;
+}
+.activoclase {
+	color:#FF0
+}
+.tablehead {
+	background-color: #D1EFD7;
+	text-align:center;
+	vertical-align:middle;
+}

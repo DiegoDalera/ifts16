@@ -1,0 +1,284 @@
+Uri: http://fonts.googleapis.com/css?family=Lemon|Coda:800
+File Name: C:\Downloaded Web Sites\ifts16.com\css-1
+Content Type: text/css
+
+Uri: http://fonts.googleapis.com/css?family=Pacifico
+File Name: C:\Downloaded Web Sites\ifts16.com\css-2
+Content Type: text/css
+
+Uri: http://fonts.gstatic.com/s/coda/v21/SLXIc1jY5nQ8HeIgfpmsxw.ttf
+File Name: C:\Downloaded Web Sites\ifts16.com\s\coda\v21\SLXIc1jY5nQ8HeIgfpmsxw.ttf
+Content Type: font/ttf
+
+Uri: http://fonts.gstatic.com/s/lemon/v17/HI_EiYEVKqRMq3jGQ5E.ttf
+File Name: C:\Downloaded Web Sites\ifts16.com\s\lemon\v17\HI_EiYEVKqRMq3jGQ5E.ttf
+Content Type: font/ttf
+
+Uri: http://fonts.gstatic.com/s/pacifico/v22/FwZY7-Qmy14u9lezJ-6H6Mw.ttf
+File Name: C:\Downloaded Web Sites\ifts16.com\s\pacifico\v22\FwZY7-Qmy14u9lezJ-6H6Mw.ttf
+Content Type: font/ttf
+
+Uri: http://ifts16.com/imagenes/ley24521.pdf
+File Name: C:\Downloaded Web Sites\ifts16.com\imagenes\ley24521.pdf
+Content Type: application/pdf
+
+Uri: http://ifts16.com/imagenes/ley25573.pdf
+File Name: C:\Downloaded Web Sites\ifts16.com\imagenes\ley25573.pdf
+Content Type: application/pdf
+
+Uri: http://ifts16.com/imagenes/ResolucionAP.pdf
+File Name: C:\Downloaded Web Sites\ifts16.com\imagenes\ResolucionAP.pdf
+Content Type: application/pdf
+
+Uri: https://code.jquery.com/jquery-3.2.1.min.js
+File Name: C:\Downloaded Web Sites\ifts16.com\jquery-3.2.1.min.js
+Content Type: application/javascript
+
+Uri: https://ifts16.com/
+File Name: C:\Downloaded Web Sites\ifts16.com\index.htm
+Content Type: text/html
+
+Uri: https://ifts16.com/bg.jpg
+File Name: C:\Downloaded Web Sites\ifts16.com\bg.jpg
+Content Type: image/jpeg
+
+Uri: https://ifts16.com/calendar.js
+File Name: C:\Downloaded Web Sites\ifts16.com\calendar.js
+Content Type: application/javascript
+
+Uri: https://ifts16.com/contacto.php
+File Name: C:\Downloaded Web Sites\ifts16.com\contacto.php.html
+Content Type: text/html
+
+Uri: https://ifts16.com/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\ifts16.com\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://ifts16.com/css/clasesvarias.css
+File Name: C:\Downloaded Web Sites\ifts16.com\css\clasesvarias.css
+Content Type: text/css
+
+Uri: https://ifts16.com/css/modern-business.css
+File Name: C:\Downloaded Web Sites\ifts16.com\css\modern-business.css
+Content Type: text/css
+
+Uri: https://ifts16.com/font-awesome-4.1.0/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\ifts16.com\font-awesome-4.1.0\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://ifts16.com/font-awesome-4.1.0/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\ifts16.com\font-awesome-4.1.0\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://ifts16.com/font-awesome-4.1.0/fonts/fontawesome-webfont.eot?v=4.1.0
+File Name: C:\Downloaded Web Sites\ifts16.com\font-awesome-4.1.0\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://ifts16.com/font-awesome-4.1.0/fonts/fontawesome-webfont.svg?v=4.1.0
+File Name: C:\Downloaded Web Sites\ifts16.com\font-awesome-4.1.0\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://ifts16.com/font-awesome-4.1.0/fonts/fontawesome-webfont.ttf?v=4.1.0
+File Name: C:\Downloaded Web Sites\ifts16.com\font-awesome-4.1.0\fonts\fontawesome-webfont.ttf
+Content Type: font/ttf
+
+Uri: https://ifts16.com/font-awesome-4.1.0/fonts/fontawesome-webfont.woff?v=4.1.0
+File Name: C:\Downloaded Web Sites\ifts16.com\font-awesome-4.1.0\fonts\fontawesome-webfont.woff
+Content Type: font/woff
+
+Uri: https://ifts16.com/fonts/glyphicons-halflings-regular.eot
+File Name: C:\Downloaded Web Sites\ifts16.com\fonts\glyphicons-halflings-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://ifts16.com/fonts/glyphicons-halflings-regular.eot?
+File Name: C:\Downloaded Web Sites\ifts16.com\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://ifts16.com/fonts/glyphicons-halflings-regular.svg
+File Name: C:\Downloaded Web Sites\ifts16.com\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: https://ifts16.com/fonts/glyphicons-halflings-regular.ttf
+File Name: C:\Downloaded Web Sites\ifts16.com\fonts\glyphicons-halflings-regular.ttf
+Content Type: font/ttf
+
+Uri: https://ifts16.com/fonts/glyphicons-halflings-regular.woff
+File Name: C:\Downloaded Web Sites\ifts16.com\fonts\glyphicons-halflings-regular.woff
+Content Type: font/woff
+
+Uri: https://ifts16.com/imagenes/logo_gcba_tr.gif
+File Name: C:\Downloaded Web Sites\ifts16.com\imagenes\logo_gcba_tr.gif
+Content Type: image/gif
+
+Uri: https://ifts16.com/imagenes/pattern4.png
+File Name: C:\Downloaded Web Sites\ifts16.com\imagenes\pattern4.png
+Content Type: image/png
+
+Uri: https://ifts16.com/inscripcion_materias.html
+File Name: C:\Downloaded Web Sites\ifts16.com\inscripcion_materias.html
+Content Type: text/html
+
+Uri: https://ifts16.com/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\ifts16.com\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://ifts16.com/js/jquery.js
+File Name: C:\Downloaded Web Sites\ifts16.com\js\jquery.js
+Content Type: application/javascript
+
+Uri: https://ifts16.com/pat.jpg
+File Name: C:\Downloaded Web Sites\ifts16.com\pat.jpg
+Content Type: image/jpeg
+
+Uri: https://ifts16.com/static/css/ifts-16.css
+File Name: C:\Downloaded Web Sites\ifts16.com\static\css\ifts-16.css
+Content Type: text/css
+
+Uri: https://ifts16.com/static/images/grid.png
+File Name: C:\Downloaded Web Sites\ifts16.com\static\images\grid.png
+Content Type: image/png
+
+Uri: https://ifts16.com/static/images/icon.svg
+File Name: C:\Downloaded Web Sites\ifts16.com\static\images\icon.svg
+Content Type: image/svg+xml
+
+Uri: https://ifts16.com/static/images/ifts-16.png
+File Name: C:\Downloaded Web Sites\ifts16.com\static\images\ifts-16.png
+Content Type: image/png
+
+Uri: https://ifts16.com/static/images/tech.jpg
+File Name: C:\Downloaded Web Sites\ifts16.com\static\images\tech.jpg
+Content Type: image/jpeg
+
+Uri: https://ifts16.com/static/images/udelaciudad.PNG
+File Name: C:\Downloaded Web Sites\ifts16.com\static\images\udelaciudad.PNG
+Content Type: image/png
+
+Uri: https://ifts16.com/static/images/UNLA.JPG
+File Name: C:\Downloaded Web Sites\ifts16.com\static\images\UNLA.JPG
+Content Type: image/jpeg
+
+Uri: https://ifts16.com/static/images/UNLaM.JPG
+File Name: C:\Downloaded Web Sites\ifts16.com\static\images\UNLaM.JPG
+Content Type: image/jpeg
+
+Uri: https://ifts16.com/static/images/unlz.JPG
+File Name: C:\Downloaded Web Sites\ifts16.com\static\images\unlz.JPG
+Content Type: image/jpeg
+
+Uri: https://ifts16.com/static/images/UP.JPG
+File Name: C:\Downloaded Web Sites\ifts16.com\static\images\UP.JPG
+Content Type: image/jpeg
+
+Uri: https://ifts16.com/static/images/UTN.JPG
+File Name: C:\Downloaded Web Sites\ifts16.com\static\images\UTN.JPG
+Content Type: image/jpeg
+
+Uri: https://ifts16.com/static/js/ifts16.js
+File Name: C:\Downloaded Web Sites\ifts16.com\static\js\ifts16.js
+Content Type: application/javascript
+
+Uri: https://ifts16.com/static/js/vendor/asynx.js
+File Name: C:\Downloaded Web Sites\ifts16.com\static\js\vendor\asynx.js
+Content Type: application/javascript
+
+Uri: https://ifts16.com/static/js/vendor/jquery-2.1.1.min.js
+File Name: C:\Downloaded Web Sites\ifts16.com\static\js\vendor\jquery-2.1.1.min.js
+Content Type: application/javascript
+
+Uri: https://ifts16.com/static/js/vendor/jquery.nicescroll.js
+File Name: C:\Downloaded Web Sites\ifts16.com\static\js\vendor\jquery.nicescroll.js
+Content Type: application/javascript
+
+Uri: https://ifts16.com/static/js/vendor/swiper/css/swiper.min.css
+File Name: C:\Downloaded Web Sites\ifts16.com\static\js\vendor\swiper\css\swiper.min.css
+Content Type: text/css
+
+Uri: https://ifts16.com/static/js/vendor/swiper/js/swiper.min.js
+File Name: C:\Downloaded Web Sites\ifts16.com\static\js\vendor\swiper\js\swiper.min.js
+Content Type: application/javascript
+
+Uri: https://ifts16.com/static/js/vendor/TweenMax.min.js
+File Name: C:\Downloaded Web Sites\ifts16.com\static\js\vendor\TweenMax.min.js
+Content Type: application/javascript
+
+Uri: https://ifts16.com/static/svg/articulacion.svg
+File Name: C:\Downloaded Web Sites\ifts16.com\static\svg\articulacion.svg
+Content Type: image/svg+xml
+
+Uri: https://ifts16.com/static/svg/bonete.svg
+File Name: C:\Downloaded Web Sites\ifts16.com\static\svg\bonete.svg
+Content Type: image/svg+xml
+
+Uri: https://ifts16.com/static/svg/hex.svg
+File Name: C:\Downloaded Web Sites\ifts16.com\static\svg\hex.svg
+Content Type: image/svg+xml
+
+Uri: https://ifts16.com/static/svg/logo-blanco.svg
+File Name: C:\Downloaded Web Sites\ifts16.com\static\svg\logo-blanco.svg
+Content Type: image/svg+xml
+
+Uri: https://ifts16.com/static/svg/logo-footer.svg
+File Name: C:\Downloaded Web Sites\ifts16.com\static\svg\logo-footer.svg
+Content Type: image/svg+xml
+
+Uri: https://ifts16.com/static/svg/logo.svg
+File Name: C:\Downloaded Web Sites\ifts16.com\static\svg\logo.svg
+Content Type: image/svg+xml
+
+Uri: https://ifts16.com/static/types/Akkurat-Mono/Akkurat-Mono.eot?
+File Name: C:\Downloaded Web Sites\ifts16.com\static\types\Akkurat-Mono\Akkurat-Mono.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://ifts16.com/static/types/Akkurat-Mono/Akkurat-Mono.svg
+File Name: C:\Downloaded Web Sites\ifts16.com\static\types\Akkurat-Mono\Akkurat-Mono.svg
+Content Type: image/svg+xml
+
+Uri: https://ifts16.com/static/types/Akkurat-Mono/Akkurat-Mono.ttf
+File Name: C:\Downloaded Web Sites\ifts16.com\static\types\Akkurat-Mono\Akkurat-Mono.ttf
+Content Type: font/ttf
+
+Uri: https://ifts16.com/static/types/Akkurat-Mono/Akkurat-Mono.woff
+File Name: C:\Downloaded Web Sites\ifts16.com\static\types\Akkurat-Mono\Akkurat-Mono.woff
+Content Type: font/woff
+
+Uri: https://ifts16.com/static/types/Akkurat-Mono/styles.css
+File Name: C:\Downloaded Web Sites\ifts16.com\static\types\Akkurat-Mono\styles.css
+Content Type: text/css
+
+Uri: https://ifts16.com/static/types/webfontkit-20160720-220406/biko_black-webfont.woff
+File Name: C:\Downloaded Web Sites\ifts16.com\static\types\webfontkit-20160720-220406\biko_black-webfont.woff
+Content Type: font/woff
+
+Uri: https://ifts16.com/static/types/webfontkit-20160720-220406/biko_black-webfont.woff2
+File Name: C:\Downloaded Web Sites\ifts16.com\static\types\webfontkit-20160720-220406\biko_black-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://ifts16.com/static/types/webfontkit-20160720-220406/biko_bold-webfont.woff
+File Name: C:\Downloaded Web Sites\ifts16.com\static\types\webfontkit-20160720-220406\biko_bold-webfont.woff
+Content Type: font/woff
+
+Uri: https://ifts16.com/static/types/webfontkit-20160720-220406/biko_bold-webfont.woff2
+File Name: C:\Downloaded Web Sites\ifts16.com\static\types\webfontkit-20160720-220406\biko_bold-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://ifts16.com/static/types/webfontkit-20160720-220406/stylesheet.css
+File Name: C:\Downloaded Web Sites\ifts16.com\static\types\webfontkit-20160720-220406\stylesheet.css
+Content Type: text/css
+
+Uri: https://ifts16.com/static/videos/v.mp4
+File Name: C:\Downloaded Web Sites\ifts16.com\static\videos\v.mp4
+Content Type: video/mp4
+
+Uri: https://ifts16.com/view.css
+File Name: C:\Downloaded Web Sites\ifts16.com\view.css
+Content Type: text/css
+
+Uri: https://ifts16.com/view.js
+File Name: C:\Downloaded Web Sites\ifts16.com\view.js
+Content Type: application/javascript
+
+Uri: https://www.google.com/recaptcha/api.js
+File Name: C:\Downloaded Web Sites\ifts16.com\recaptcha\api.js
+Content Type: text/javascript
+
